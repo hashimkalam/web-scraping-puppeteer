@@ -10,6 +10,7 @@ function Form() {
     links: { text: string; href: string }[];
     images: { src: string; alt: string }[];
   } | null>(null);
+  
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState<string | null>(null);
 
